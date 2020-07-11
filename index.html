@@ -1,0 +1,176 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/f1b887a66b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      h1,
+      h2,
+      h3,
+      p {
+        padding: 0;
+        margin: 0;
+      }
+      h1, h2, h3{
+        font-family: 'Bebas Neue', cursive;
+      }
+      p{
+        font-family: 'Fjalla One', sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      .card{
+          border-radius: 20px;
+          width: 10rem;
+          box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
+      }
+      @media screen and (max-width: 600px) {
+          #experience{
+            flex-direction: columns ;
+          }
+          .mobile-hide{
+              display: none !important;
+          }
+          .mobile-show{
+              display: none;
+          }
+      }
+    </style>
+  </head>
+  <body class="text-center">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #000000;"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Me </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedule with Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div
+        class="p-3 row d-flex flex-column justify-content-center align-items-center"
+        style="min-height: 90vh;"
+      >
+        <h1 class="display-1" >Niroshani Kanthakumar</h1>
+        <div class="m-3 d-flex justify-content-between" style="width: 65px" >
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><i class="fab fa-instagram" style="font-size: 30px;"></i
+          ></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><i class="fab fa-github-alt" style="font-size: 30px;""></i
+          ></a>
+        </div>
+        <h2>Front End Developer |<span class="mobile-hide"></span><br class="mobile-show" style="display: none;"> Coaching</h2>
+        <p class="my-3 container">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="p-3 row d-flex text-white " style="background-color: rgba(0, 0, 0, 0.9);" id="experience">
+        <div class="my-2 col d-flex flex-column justify-content-center align-items-center ">
+          <h3>SKILLS</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JS</p>
+        </div>
+        <div class="my-2 col d-flex flex-column justify-content-center align-items-center ">
+          <h3>PROJECTS</h3>
+          <a class="btn btn-outline-light" href="http://www." target="_blank" rel="noopener"></a>
+          <a class="btn btn-outline-light" href="http://www." target="_blank" rel="noopener"></a>
+          <a class="btn btn-outline-light" href="http://www." target="_blank" rel="noopener"></a>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Testimonial</h3>
+       <div class="m-2 container d-flex flex-wrap flex-column justify-content-center align-items-center"> <div class="card">
+        <div class="card-body">
+          <p><i class="fas fa-star"></i></p>
+          <p>Amazing person</p>
+          <p>-Anon</p>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex flex-wrap flex-column justify-content-center align-items-center"> <div class="card">
+        <div class="card-body">
+          <p><i class="fas fa-star"></i></p>
+          <p>Amazing person</p>
+          <p>-Anon</p>
+        </div>
+      </div></div>
+      <div class="container d-flex flex-wrap flex-column justify-content-center align-items-center"> <div class="card">
+        <div class="card-body">
+          <p><i class="fas fa-star"></i></p>
+          <p>Amazing person</p>
+          <p>-Anon</p>
+        </div>
+      </div></div>
+      </div>
+      <div class="p-3 row d-flex flex-column justify-content-center align-items-center">
+        <h3>Schedule with me</h3>
+        <!-- Calendly inline widget begin -->
+        <div
+          class="calendly-inline-widget container"
+          data-url="https://calendly.com/niro-kumar/60min?primary_color=000000"
+          style="min-width: 320px; height: 630px;"
+        ></div>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+        ></script>
+        <!-- Calendly inline widget end -->
+      </div>
+      <div class="p-5 row d-flex justify-content-center align-items-center text-white" style="background-color: rgb(0, 0, 0);">
+        <div class="col">
+          Copyright &copy;
+        </div>
+        <div class="col">
+          <p>Cpntact Me: XXX | yy@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
